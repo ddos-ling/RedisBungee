@@ -66,7 +66,7 @@ By using jitpack [![](https://jitpack.io/v/ProxioDev/redisbungee.svg)](https://j
 add this in your project dependencies 
 ```xml
 	<dependency>
-	    <groupId>com.github.proxiodev.redisbungee</groupId>
+	    <groupId>com.github.ddos_ling.redisbungee</groupId>
 	    <artifactId>RedisBungee-Bungee</artifactId>
 	    <version>VERSION</version>
 	    <scope>provided</scope>
@@ -86,7 +86,7 @@ depends: [ RedisBungee ]
 ## [Velocity](https://github.com/PaperMC/Velocity)
 ```xml
 	<dependency>
-	    <groupId>com.github.proxiodev.redisbungee</groupId>
+	    <groupId>com.github.ddos_ling.redisbungee</groupId>
 	    <artifactId>RedisBungee-Velocity</artifactId>
 	    <version>VERSION</version>
 	    <scope>provided</scope>
