@@ -23,7 +23,7 @@ import java.util.concurrent.Callable;
 /* Credits to evilmidget38 for this class. I modified it to use Gson. */
 public class UUIDFetcher implements Callable<Map<String, UUID>> {
     private static final double PROFILES_PER_REQUEST = 100;
-    private static final String PROFILE_URL = "https://mojangapi-proxy.stgzs.top/profiles/minecraft";
+    private static final String PROFILE_URL = "http://mojang-api.dcplay.top/profiles/minecraft";
     private static final MediaType JSON = MediaType.parse("application/json");
     private final List<String> names;
     private final boolean rateLimiting;
